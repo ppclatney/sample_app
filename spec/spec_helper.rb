@@ -41,4 +41,7 @@ RSpec.configure do |config|
   config.order = "random"
 
   config.include Capybara::DSL
+
+  require 'simplecov'
+  SimpleCov.start
 end
