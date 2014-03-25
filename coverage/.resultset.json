@@ -1,10 +1,23 @@
 {
   "RSpec": {
     "coverage": {
+<<<<<<< HEAD
       "/home/paul/Rails/rails_project/sample_app/spec/models/user_spec.rb": [
+=======
+      "/home/paul/Rails/rails_project/sample_app/app/models/user.rb": [
+        1,
+        103,
+        1,
+        103,
+        1,
+        1,
+        1,
+        1,
+>>>>>>> updating-users
         1,
         null,
         1,
+<<<<<<< HEAD
         null,
         1,
         21,
@@ -112,18 +125,52 @@
         null,
         2,
         2,
+=======
         null,
+        1,
+        97,
+        null,
+        null,
+        1,
+        428,
+        null,
+        null,
+        1,
+>>>>>>> updating-users
+        null,
+        1,
+        73,
         null,
         null
       ],
+<<<<<<< HEAD
       "/home/paul/Rails/rails_project/sample_app/app/models/user.rb": [
         1,
         36,
         1,
         36,
+=======
+      "/home/paul/Rails/rails_project/sample_app/app/controllers/sessions_controller.rb": [
+>>>>>>> updating-users
         1,
         1,
+        null,
+        null,
         1,
+        null,
+        20,
+        20,
+        null,
+        20,
+        20,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+<<<<<<< HEAD
         1,
         1,
         null,
@@ -139,6 +186,10 @@
         null,
         1,
         25,
+=======
+        0,
+        0,
+>>>>>>> updating-users
         null,
         null
       ],
@@ -201,6 +252,7 @@
         null,
         null
       ],
+<<<<<<< HEAD
       "/home/paul/Rails/rails_project/sample_app/spec/requests/static_pages_spec.rb": [
         1,
         null,
@@ -259,6 +311,9 @@
         1,
         1,
         1,
+=======
+      "/home/paul/Rails/rails_project/sample_app/app/controllers/users_controller.rb": [
+>>>>>>> updating-users
         1,
         1,
         1,
@@ -271,20 +326,27 @@
         null,
         1,
         1,
-        11,
+        12,
+        null,
         null,
         null,
         10,
         null,
         1,
+<<<<<<< HEAD
         3,
         null,
         2,
         2,
+=======
+        31,
+>>>>>>> updating-users
         null,
         null,
         1,
+        9,
         null,
+<<<<<<< HEAD
         3,
         null,
         2,
@@ -340,39 +402,54 @@
         2,
         null,
         null,
-        null,
-        null
-      ],
-      "/home/paul/Rails/rails_project/sample_app/app/controllers/static_pages_controller.rb": [
-        1,
-        1,
-        null,
+=======
+>>>>>>> updating-users
         null,
         1,
+        7,
+        7,
+        4,
+        4,
+        4,
+        null,
+        3,
+        null,
         null,
         null,
         1,
         null,
         null,
         1,
+        6,
         null,
+        5,
+        5,
+        null,
+        1,
+        null,
+<<<<<<< HEAD
         null
       ],
       "/home/paul/Rails/rails_project/sample_app/app/controllers/application_controller.rb": [
         1,
+=======
+>>>>>>> updating-users
         null,
         null,
         1,
         1,
+<<<<<<< HEAD
         null
       ],
       "/home/paul/Rails/rails_project/sample_app/app/controllers/users_controller.rb": [
+=======
+>>>>>>> updating-users
         1,
         1,
-        0,
         null,
         null,
         1,
+<<<<<<< HEAD
         11,
         null,
         null,
@@ -388,11 +465,28 @@
         4,
         null,
         3,
+=======
+        null,
+        1,
+        13,
+        null,
+        null,
         null,
         null,
         null,
         1,
+        28,
+        0,
+        0,
+>>>>>>> updating-users
         null,
+        null,
+        null,
+        1,
+        15,
+        15,
+        null,
+<<<<<<< HEAD
         1,
         7,
         null,
@@ -419,11 +513,19 @@
         null,
         1,
         1,
+=======
+        null,
+        1,
+>>>>>>> updating-users
         1,
         null,
         null
       ]
     },
+<<<<<<< HEAD
     "timestamp": 1395778209
+=======
+    "timestamp": 1395778060
+>>>>>>> updating-users
   }
 }
