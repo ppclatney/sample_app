@@ -20,4 +20,4 @@ doc/
 .secret
 
 #ignore code coverage files
-coverage/
+/coverage

@@ -5,7 +5,6 @@ class UsersController < ApplicationController
 
   def index
   	@users = User.paginate(page: params[:page])
-
   end
   
   def show
@@ -13,7 +12,9 @@ class UsersController < ApplicationController
   end
 
   def new
-  	@user = User.new
+       #If the user is already signed in direct to root url
+       redirect_to(root_url) if signed_in?
+  	   @user = User.new
   end
 
   def create
@@ -41,8 +42,14 @@ class UsersController < ApplicationController
   end
 
   def destroy
-    User.find(params[:id]).destroy
-    flash[:success] = "User deleted."
+    #Prevent admin users from deleting their own account
+    if current_user.admin? && current_user.id == User.find(params[:id]).id
+      flash[:failure] = "You cannot delete your own account"
+    else
+    #Otherwise destroy user
+      User.find(params[:id]).destroy
+      flash[:success] = "User deleted."
+    end
     redirect_to users_url
   end
 
@@ -50,7 +57,7 @@ class UsersController < ApplicationController
 
     def user_params
       params.require(:user).permit(:name, :email, :password,
-                                   :password_confirmation, :admin)
+                                   :password_confirmation)
     end
 
     # Before filters
